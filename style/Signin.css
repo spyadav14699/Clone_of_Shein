@@ -1,0 +1,314 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+div {
+  /* border: 1px solid red; */
+  width: 99%;
+}
+#login {
+  width: 650px;
+  margin: auto;
+  gap: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+select {
+  width: 110px;
+  border: none;
+}
+input {
+  width: 260px;
+  height: 35px;
+  border: 0.6px solid rgba(0, 0, 0, 0.205);
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 250px;
+  height: 40px;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.61);
+}
+#alighn {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.61);
+}
+#right {
+  margin-left: 50px;
+}
+#sighp {
+  font-size: 13px;
+}
+#link1 {
+  color: blue;
+}
+
+input:hover {
+  border: 0.6px solid black;
+}
+#check {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+#check > div {
+  display: inline;
+  margin: 15px;
+}
+#check > div > input {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  color: white;
+}
+#trem {
+  width: 15px;
+  height: 15px;
+}
+#alighn1 {
+  color: rgba(0, 0, 0, 0.534);
+  text-align: center;
+}
+#social {
+  width: 245px;
+  height: 40px;
+}
+#social:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+#social > h1 {
+  color: rgba(0, 0, 0, 0.582);
+
+  margin: 7px;
+  font-size: 20px;
+}
+#last {
+  margin-right: 30px;
+  text-align: center;
+}
+#red {
+  color: red;
+}
+option {
+  border: none;
+}
+#one,
+#pone,
+#ptwo,
+#tone,
+#ttwo,
+#tthree {
+  color: red;
+  font-size: 12px;
+}
+
+#vishnu_top {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#vishnu_codeText {
+  margin: 10px;
+}
+
+#vishnu_codeOfTheDay {
+  margin: 10px;
+}
+
+#vishnu_timer {
+  padding: 10px;
+  margin-right: 150px;
+}
+
+#vishnu_codeOfTheDay {
+  background-color: white;
+  padding: 3px 3px 3px 15px;
+  width: 21%;
+}
+
+#vishnu_codeText {
+  width: 65%;
+  margin-left: 10%;
+  padding: 10px;
+  color: white;
+}
+
+#vishnu_timer {
+  margin-left: 20%;
+  display: flex;
+  padding-bottom: 0px;
+}
+
+#vishnu_timer > div {
+  width: 20%;
+  padding: 5px;
+}
+
+#vishnu_secondBar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #f7f8fa;
+  align-content: center;
+  height: 80px;
+}
+
+#vishnu_one {
+  width: 45%;
+  display: flex;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#vishnu_two {
+  width: 20%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  padding-top: 15px;
+  letter-spacing: 4px;
+}
+
+#vishnu_three {
+  width: 20%;
+}
+
+#vishnu_four {
+  width: 20%;
+  text-align: left;
+  margin-top: 5px;
+  display: flex;
+}
+
+#vishnu_scroll {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  padding-left: 0;
+}
+
+#vishnu_scroll > a {
+  padding: 3% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+}
+
+#vishnu_scroll > a:hover {
+  color: black;
+}
+
+#vishnu_leftButton,
+#vishnu_rightButton {
+  width: 3%;
+  padding-top: 5%;
+  text-align: center;
+}
+#vishnu_three {
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 15px 15px 1px 15px;
+}
+
+.campaign {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#vishnu_thirdBar {
+  width: 100%;
+  height: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.vishnuText {
+  margin: 15px 12px;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.vishnuText:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 20px;
+}
+
+#vishnu_thirdBar {
+  color: #3d3d3d;
+}
+
+.vishnuText {
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #3d3d3d;
+  font-weight: 500;
+}
+#vishnu_thirdBar1 {
+  width: 75%;
+  display: flex;
+}
+
+#vishnu_thirdBar2 {
+  width: 20%;
+  display: flex;
+  justify-content: right;
+  padding: 8px;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 80px;
+}
+
+#vishnu_slider {
+  width: 5%;
+  display: flex;
+}
+
+#vishnu_slider > div {
+  width: 50%;
+  padding-top: 30%;
+  padding-left: 20%;
+}
+
+#vishnu_moveLeft,
+#vishnu_moveRight {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#vishnu_searchBtn {
+  background-color: black;
+  color: cornsilk;
+}
+#login1 {
+  margin-top: 70px;
+}
+#onep1 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.562);
+}
+.onep1 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.562);
+}

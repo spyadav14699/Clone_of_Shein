@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://pbs.twimg.com/profile_images/585774307864780802/hSIi81s2.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style/Payment.css" />
+
+    <title>https://us.shein.com/payment</title>
+  </head>
+  <body>
+    <div>
+      <hr />
+      <h1 id="jaitop1">
+        SHEIN / <span id="jaitopgreen">Secure Checkout</span>
+      </h1>
+      <hr />
+    </div>
+
+    <div id="top"></div>
+    <div id="main">
+      <div id="left">
+        <a href="./Home.html">Back to place order page</a>
+
+        <p id="pone">
+          <strong id="strongone"> Billing Address:</strong> Please make sure the
+          billing address you enter below matches the name and address
+          associated with the credit card you are using for this purchase.
+        </p>
+
+        <hr />
+
+        <h3>Card Information:</h3>
+
+        <img
+          src="https://lh3.googleusercontent.com/-ZTP9wN_6r7U/YVlqKzsNJuI/AAAAAAAAV60/HcTpvww-6G4KpMmr-iOFjfgvMXsM_d0LACLcBGAsYHQ/Screenshot%2B%252834%2529.png"
+          alt=""
+        />
+        <hr />
+
+        <p id="inform">Card Number<span class="red-star">*</span></p>
+        <input type="number" name="" id="cardnum" />
+        <p id="cardnum1"></p>
+        <p id="inform">Month/Date <span class="red-star">*</span></p>
+        <select id="month">
+          <option value="1">Month</option>
+          <option value="2">01</option>
+          <option value="3">02</option>
+          <option value="4">03</option>
+          <option value="5">04</option>
+          <option value="6">05</option>
+          <option value="7">06</option>
+          <option value="8">07</option>
+          <option value="9">08</option>
+          <option value="10">09</option>
+          <option value="11">10</option>
+          <option value="12">11</option>
+          <option value="12">12</option>
+        </select>
+
+        <select id="year">
+          <option value="2015">Year</option>
+          <option value="2016">2021</option>
+          <option value="2017">2022</option>
+          <option value="2018">2023</option>
+          <option value="2018">2024</option>
+          <option value="2018">2025</option>
+          <option value="2018">2026</option>
+        </select>
+        <p id="month1"></p>
+        <p id="inform">Security code<span class="red-star">*</span></p>
+
+        <input type="number" placeholder="CVV/CVC/CID" id="code" /> &nbsp;
+        <a id="inform1" href="https://en.wikipedia.org/wiki/Card_security_code"
+          >What is a security code?</a
+        >
+        <p id="code1"></p>
+
+        <p id="inform">Mobile Number<span class="red-star">*</span></p>
+        <input type="number" id="mobile" />
+
+        <button id="otpbutton">Get OTP</button>
+
+        <p id="mobile1"></p>
+
+        <p id="otp"></p>
+
+        <p id="inform">Enter OTP<span class="red-star">*</span></p>
+        <input type="number" placeholder="Enter Your OTP" id="otpfill" />
+        <p id="otpfill1"></p>
+      </div>
+      <hr id="hrone" />
+      <div id="right">
+        <h3 id="inform">Order Summary</h3>
+        <hr />
+        <p id="inform">Order NO. &nbsp; &nbsp; &nbsp; GSUMDS0060004P6</p>
+        <p id="inform">
+          Subtotal: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+          US$16.00
+        </p>
+        <p id="inform">
+          Shipping fee: &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+          &nbsp;&nbsp; &nbsp; US$3.99
+        </p>
+        <p id="inform">
+          Grand Total: &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+          &nbsp; &nbsp;&nbsp; &nbsp; <strong>US$19.99</strong>
+        </p>
+
+        <button id="buttwo">CONTINUE</button>
+
+        <p id="valid"></p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="./script/Payment.js"></script>

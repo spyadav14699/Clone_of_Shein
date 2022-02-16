@@ -1,0 +1,438 @@
+#vishnuSortOuter {
+  margin-left: 85%;
+  width: 180px;
+  height: 20px;
+  padding: 20px;
+  /* border:1px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#vishnuSelect {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  width: 60%;
+  min-height: 15px;
+
+  border: 1px solid grey;
+  /* display: flex; */
+}
+#vishnuSelect > div:nth-child(1) {
+  width: 81%;
+  height: 15px;
+  display: inline-block;
+  vertical-align: top;
+  /* border:1px solid red;     */
+  text-align: center;
+  box-sizing: border-box;
+  padding: 3px;
+}
+#vishnuSelect > div:nth-child(2) {
+  width: 15%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 3px 5px;
+}
+
+#jaiparent {
+  width: 95%;
+  margin: auto;
+}
+
+#jaifilters {
+  background-color: #f6f6f6;
+  height: 120px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#jaifilterbutton {
+  display: flex;
+}
+
+#jaifilterbutton > div {
+  border: 1px solid rgb(165, 161, 161);
+  background-color: white;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#jaifilterbutton > div:hover {
+  border: 1px solid black;
+}
+
+img {
+  width: 100%;
+}
+
+#jaiparent1 {
+  width: 100%;
+  display: flex;
+}
+
+#jaileft {
+  width: 15%;
+}
+
+#jairight {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-gap: 2%;
+  justify-content: space-between;
+}
+
+#footer {
+  background-color: #fafafa;
+  width: 100%;
+  height: 450px;
+  display: flex;
+
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+#footerleft {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#footerlefttop {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-top: 30px;
+  width: 80%;
+}
+
+#footerleftbottom {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 30%;
+  align-self: flex-end;
+
+  padding-top: 10px;
+}
+
+.text {
+  padding-top: 20px;
+  min-height: 250px;
+  width: 176px;
+}
+
+.footerfont {
+  padding: 5px;
+  margin: 0%;
+  margin-right: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #696969;
+}
+.footerheading {
+  font-weight: bold;
+  color: black;
+}
+
+.footerfont:hover {
+  color: black;
+}
+
+/*//////////////////////right box///////////////////*/
+
+#footerright {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#footerright > div {
+  height: 28%;
+}
+
+#footerright > div:nth-child(1) {
+  display: flex;
+  margin-top: 50px;
+}
+#footerrighttop > div:nth-child(1) {
+  width: 250px;
+}
+
+#footerrightbutton {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 33px;
+  margin-left: 0;
+}
+#footerrightinput {
+  height: 28px;
+  width: 400px;
+  margin-right: 0;
+}
+
+img {
+  width: 100%;
+}
+#weaccept {
+  height: 90px;
+  width: 80%;
+}
+
+#socialmedia {
+  height: 60px;
+  width: 200px;
+}
+
+#appstore {
+  width: 100px;
+  height: 50px;
+}
+
+#vishnu_top {
+  width: 100%;
+  /* border:1px solid black; */
+  height: 50px;
+  background-color: black;
+  display: flex;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#vishnu_codeText {
+  margin: 10px;
+}
+#vishnu_codeOfTheDay {
+  margin: 10px;
+}
+#vishnu_timer {
+  padding: 10px;
+  margin-right: 150px;
+}
+#vishnu_codeOfTheDay {
+  background-color: white;
+  padding: 3px 3px 3px 15px;
+  width: 21%;
+}
+#vishnu_codeText {
+  width: 65%;
+  margin-left: 10%;
+  padding: 10px;
+  color: white;
+}
+#vishnu_timer {
+  margin-left: 20%;
+  display: flex;
+  padding-bottom: 0px;
+}
+#vishnu_timer > div {
+  /* border: 1px solid red; */
+  width: 20%;
+  padding: 5px;
+}
+#vishnu_secondBar {
+  width: 100%;
+  /* border:1px solid red; */
+  height: 100%;
+  display: flex;
+  background-color: #f7f8fa;
+  align-content: center;
+  height: 80px;
+}
+
+#vishnu_one {
+  width: 45%;
+  display: flex;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+#vishnu_two {
+  width: 20%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  padding-top: 15px;
+  letter-spacing: 4px;
+}
+#vishnu_three {
+  width: 20%;
+}
+#vishnu_four {
+  width: 20%;
+  /* background-color: pink; */
+  text-align: left;
+  margin-top: 5px;
+  display: flex;
+}
+/* #vishnu_one>a:nth-child(2),#vishnu_one>a:nth-child(3),#vishnu_one>a:nth-child(4),#vishnu_one>a:nth-child(5),#vishnu_one>a:nth-child(6),#vishnu_one>a:nth-child(7){
+            border:1px solid green;
+            width:20%;
+            padding-top:3%;
+            text-align: center;
+            
+        } */
+#vishnu_scroll {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  padding-left: 0;
+  /* white-space: nowrap; */
+}
+#vishnu_scroll > a {
+  /* border:1px solid green;             */
+  padding: 3% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+}
+#vishnu_scroll > a:hover {
+  color: black;
+}
+
+#vishnu_leftButton,
+#vishnu_rightButton {
+  /* border:1px solid pink;             */
+  width: 3%;
+  padding-top: 5%;
+  text-align: center;
+}
+#vishnu_three {
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 15px 15px 1px 15px;
+}
+
+.campaign {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#vishnu_thirdBar {
+  width: 100%;
+  height: 100%;
+  /* background-color: grey; */
+  height: 50px; /*<< make this 100% once done*/
+  display: flex;
+  /* border: 1px solid red;   */
+}
+.vishnuText {
+  /* border: 1px solid red; */
+  margin: 15px 12px;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.vishnuText:hover {
+  /* color: blue; */
+  text-decoration-line: underline;
+  text-underline-offset: 20px; /*<<<   Adjust this value as per the bar width to align properly*/
+}
+
+#vishnu_thirdBar {
+  color: #3d3d3d;
+}
+.vishnuText {
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #3d3d3d;
+  font-weight: 500;
+}
+#vishnu_thirdBar1 {
+  /* border: 1px solid red; */
+  width: 75%;
+  display: flex;
+}
+#vishnu_thirdBar2 {
+  /* border: 1px solid green;     */
+  width: 20%;
+  display: flex;
+  justify-content: right;
+  padding: 8px;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 80px;
+}
+#vishnu_slider {
+  width: 5%;
+  /* border:1px solid tomato; */
+  display: flex;
+}
+#vishnu_slider > div {
+  /* border:1px solid tomato; */
+  width: 50%;
+  padding-top: 30%;
+  padding-left: 20%;
+}
+#vishnu_moveLeft,
+#vishnu_moveRight {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#vishnu_searchBtn {
+  background-color: black;
+  color: cornsilk;
+}
+
+#outer {
+  /* border:1px solid red; */
+  width: 160px; /*<< Minimum width to avoid text misalignment in sleeve length category*/
+  height: 600px;
+  overflow-y: scroll;
+}
+#outer > div {
+  width: 100%;
+  min-height: 5%;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  /* border: 1px solid red;    */
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: #393939;
+}
+
+#outer > div > div:nth-child(1) {
+  width: 93%;
+}
+#outer > div > div:nth-child(2) {
+  font-size: 10px;
+  /* margin-left:70%; */
+}
+#vishnuAd > #spec {
+  box-sizing: border-box;
+  margin: 10%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+#vishnu_color + div > a {
+  border: 2px solid green;
+}
+#vish_slider {
+  height: 2px;
+}
+
+#jaifooterover {
+  margin-top: 1000px;
+}
+/* id footer provided inline style*/
+
+a {
+  text-decoration: none;
+}

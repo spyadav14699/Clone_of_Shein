@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+}
+input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.315);
+}
+input:hover {
+  border: 1px solid rgba(0, 0, 0, 0.671);
+}
+a {
+  color: black;
+}
+
+#main {
+  width: 90%;
+  display: flex;
+  gap: 40px;
+  margin: auto;
+}
+#left {
+  width: 60%;
+}
+#right {
+  width: 35%;
+}
+/* div {
+    border: 2px solid red;
+} */
+
+#top {
+  /* text-align: center; */
+  color: black;
+  width: 70%;
+  margin: auto;
+}
+#pone {
+  font-size: 12px;
+}
+#strongone {
+  font-size: 17px;
+}
+
+.red-star {
+  color: red;
+}
+#buttwo {
+  width: 250px;
+  border: none;
+  height: 35px;
+  color: white;
+  background-color: black;
+}
+#buttwo:hover {
+  background-color: rgba(0, 0, 0, 0.712);
+}
+
+#otpbutton {
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: black;
+}
+
+#jaitopgreen {
+  color: #83b293;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 20px;
+  word-spacing: 6px;
+}
+#jaitop1 {
+  font-family: sans-serif;
+  margin-left: 60px;
+  color: #222222;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  line-height: 3px;
+}
+#valid,
+#mobile1,
+#cardnum1,
+#code1,
+#otpfill1,
+#otp {
+  font-size: 12px;
+  color: red;
+}
+#hrone {
+  height: 300px;
+}
+
+#inform {
+  color: rgba(0, 0, 0, 0.555);
+}
+#inform1 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.555);
+}

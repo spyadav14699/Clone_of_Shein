@@ -1,0 +1,857 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#ranslide3 {
+  width: 100%;
+  padding: 0%;
+  margin: auto;
+}
+.text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font: 25px;
+}
+
+#ranslide1 {
+  width: 100%;
+  padding: 0%;
+  margin: auto;
+}
+
+#ranslide2 {
+  width: 100%;
+  padding: 0%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#jaislideimg {
+  height: 500px;
+  width: 95%;
+  margin-left: 37px;
+}
+.jaibox {
+  width: 100%;
+  overflow: hidden;
+}
+
+.jaislide-img {
+  min-width: 200px;
+  height: 100%;
+  position: relative;
+  padding: 10px;
+}
+.jaislide-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+#jaiautoWidth {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+}
+.jaiitem-a {
+  margin: auto;
+}
+
+#jaisoldtxt {
+  display: inline-block;
+  inline-size: 80%;
+}
+
+#jaipercentsold {
+  display: inline-block;
+  text-align: right;
+}
+
+#jaifillingbar {
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+#jaifillingbar > div {
+  width: 40%;
+  height: 5px;
+  background-color: burlywood;
+  margin: 0%;
+  padding: 0%;
+}
+
+#jaidiscountover {
+  background-color: #fcd364;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#jaistyleglry {
+  margin: auto;
+  width: 95%;
+  height: 500px;
+}
+
+.jaibox {
+  width: 100%;
+  overflow: hidden;
+}
+
+.jaislide-img {
+  height: 100%;
+  position: relative;
+  padding: 10px;
+}
+
+.jaislide-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.jaioverlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.jaibuy-btn {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+
+.jaibuy-btn:hover {
+  transition: all ease 0.3s;
+}
+
+.jaioverlay {
+  visibility: hidden;
+}
+
+.jaislide-img:hover .jaioverlay {
+  visibility: visible;
+  animation: fade 0.5s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#jaiautoWidth {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: absolute;
+}
+
+.jaiitem-a {
+  margin: auto;
+}
+
+#jaiheadingstyle {
+  text-align: center;
+}
+
+/*------------------------------color tabs------------------------*/
+#jaicolortab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.jaitabs {
+  border-radius: 35px;
+  background-color: rgb(168, 115, 34);
+  margin: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  min-width: max-content;
+  height: 60px;
+  padding-top: 20px;
+  color: white;
+}
+
+.jaifall {
+  background-color: #2c4558;
+}
+.jaicozy {
+  background-color: #883350;
+}
+.jaigirl {
+  background-color: #d7c9bd;
+}
+.jaielegent {
+  background-color: #dccad7;
+}
+.jaiembrace {
+  background-color: #c39171;
+}
+.jaicurve {
+  background-color: #ddd1c1;
+}
+.jaidate {
+  background-color: #dea6a7;
+}
+.jaistreet {
+  background-color: #edd0b4;
+}
+.jaidenim {
+  background-color: #8f7b74;
+}
+.jaisecret {
+  background-color: #373e58;
+}
+
+.jaitabs:hover {
+  filter: brightness(80%);
+}
+
+/*------------------------footer part below------------------------------*/
+#footer {
+  background-color: #fafafa;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+#footerleft {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#footerlefttop {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-top: 30px;
+  width: 80%;
+}
+
+#footerleftbottom {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 30%;
+  align-self: flex-end;
+
+  padding-top: 10px;
+}
+
+.text {
+  padding-top: 20px;
+  min-height: 250px;
+  width: 176px;
+}
+
+.footerfont {
+  padding: 5px;
+  margin: 0%;
+  margin-right: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #696969;
+}
+.footerheading {
+  font-weight: bold;
+  color: black;
+}
+
+.footerfont:hover {
+  color: black;
+}
+
+/*//////////////////////right box///////////////////*/
+
+#footerright {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#footerright > div {
+  height: 28%;
+}
+
+#footerright > div:nth-child(1) {
+  display: flex;
+  margin-top: 50px;
+}
+#footerrighttop > div:nth-child(1) {
+  width: 250px;
+}
+
+#footerrightbutton {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 33px;
+  margin-left: 0;
+}
+#footerrightinput {
+  height: 28px;
+  width: 400px;
+  margin-right: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+#weaccept {
+  height: 90px;
+  width: 80%;
+}
+
+#socialmedia {
+  height: 60px;
+  width: 200px;
+}
+
+#appstore {
+  width: 100px;
+  height: 50px;
+}
+
+/*----------------------------------Top three bars--------------------------------------------------*/
+#vishnu_top {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#vishnu_codeText {
+  margin: 10px;
+}
+
+#vishnu_codeOfTheDay {
+  margin: 10px;
+}
+
+#vishnu_timer {
+  padding: 10px;
+  margin-right: 150px;
+}
+
+#vishnu_codeOfTheDay {
+  background-color: white;
+  padding: 3px 3px 3px 15px;
+  width: 21%;
+}
+
+#vishnu_codeText {
+  width: 65%;
+  margin-left: 10%;
+  padding: 10px;
+  color: white;
+}
+
+#vishnu_timer {
+  margin-left: 20%;
+  display: flex;
+  padding-bottom: 0px;
+}
+
+#vishnu_timer > div {
+  width: 20%;
+  padding: 5px;
+}
+
+#vishnu_secondBar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #f7f8fa;
+  align-content: center;
+  height: 80px;
+}
+
+#vishnu_one {
+  width: 45%;
+  display: flex;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#vishnu_two {
+  width: 20%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  padding-top: 15px;
+  letter-spacing: 4px;
+  color: black;
+}
+
+#vishnu_three {
+  width: 20%;
+}
+
+#vishnu_four {
+  width: 20%;
+  text-align: left;
+  margin-top: 5px;
+  display: flex;
+}
+
+#vishnu_scroll {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  padding-left: 0;
+}
+
+#vishnu_scroll > a {
+  padding: 3% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+}
+
+#vishnu_scroll > a:hover {
+  color: black;
+}
+
+#vishnu_leftButton,
+#vishnu_rightButton {
+  width: 3%;
+  padding-top: 5%;
+  text-align: center;
+}
+#vishnu_three {
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 15px 15px 1px 15px;
+}
+
+.campaign {
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* #vishnu_thirdBar{
+        width:100%;
+        height:100%;
+        height:50px;              
+        display:flex;       
+}
+
+.vishnuText{
+        margin: 15px 12px;
+        font-family: Muli, Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+}
+
+.vishnuText:hover{
+       text-decoration-line: underline;           
+       text-underline-offset: 20px;   
+}
+
+#vishnu_thirdBar{
+      color: #3D3D3D;
+}  
+
+.vishnuText{
+      font-family: sans-serif;
+      font-size: 13px;
+      color: #3D3D3D;
+      font-weight: 500;
+}      
+#vishnu_thirdBar1{
+        width:75%;
+        display:flex;           
+}
+
+#vishnu_thirdBar2{
+        width:20%;        
+        display:flex;   
+        justify-content: right;      
+        padding: 8px;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 80px;
+}
+
+#vishnu_slider{
+        width:5%;
+        display:flex;
+}
+
+#vishnu_slider>div{
+        width:50%;
+        padding-top: 30%;
+        padding-left: 20%;
+}
+
+#vishnu_moveLeft,#vishnu_moveRight{
+        font-size:15px;
+        font-weight:bolder;     
+}
+
+#vishnu_searchBtn{
+background-color: black;
+color: cornsilk;
+} */
+#T3vishnu_thirdBar {
+  width: 100%;
+  height: 100%;
+  /* background-color: grey; */
+  height: 50px; /*<< make this 100% once done*/
+  display: flex;
+  /* border: 1px solid red;   */
+}
+.T3vishnuText {
+  /* border: 1px solid red; */
+  margin: 15px 12px;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  /* font-weight: 600; */
+  font-size: 15px;
+  text-decoration: none;
+  color: grey;
+}
+.T3vishnuText:hover {
+  /* color: blue; */
+  text-decoration-line: underline;
+  text-underline-offset: 20px; /*<<<   Adjust this value as per the bar width to align properly*/
+}
+#T3vishnu_thirdBar1 {
+  /* border: 1px solid red; */
+  width: 75%;
+  display: flex;
+}
+#T3vishnu_thirdBar2 {
+  /* border: 1px solid green;     */
+  width: 20%;
+  display: flex;
+  justify-content: right;
+  padding: 8px;
+}
+#T3vishnu_slider {
+  width: 5%;
+  /* border:1px solid tomato; */
+  display: flex;
+}
+#T3vishnu_slider > div {
+  /* border:1px solid tomato; */
+  width: 50%;
+  padding-top: 30%;
+  padding-left: 20%;
+}
+#T3vishnu_moveLeft,
+#T3vishnu_moveRight {
+  font-size: 14px;
+  font-weight: 900;
+}
+#T3vishnu_search {
+  background-color: black;
+  width: 40px;
+}
+#T3searchImg {
+  width: 100%;
+  height: 100%;
+}
+/*///////////////////////////T3 THIRD BAR ENDS//////////////////////////////////*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  /* background-color:whitesmoke; */
+  /* position: fixed; */
+  width: 100%;
+  z-index: 999;
+  height: 65px;
+  line-height: 65px;
+}
+nav .wrapper {
+  /* background-color: whitesmoke; */
+  max-width: 100%;
+  padding: 0 auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  box-sizing: border-box;
+}
+.nav-link li a {
+  color: grey;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px 9px;
+  height: 200px;
+}
+
+.nav-link li {
+  list-style: none;
+}
+.wrapper .nav-link {
+  display: inline-flex;
+}
+.nav-link li a:hover {
+  background-color: wheat;
+}
+
+.nav-link li:hover .mega-box {
+  top: 65px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease;
+}
+.mega-box {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  top: 80px;
+  opacity: 1;
+  visibility: hidden;
+  transition: all 0 0.3s ease;
+}
+.mega-box .content {
+  background-color: whitesmoke;
+  padding: 0px 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.content .row {
+  width: calc(25% - 30px);
+  line-height: 45px;
+}
+.content .row img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.content .row1 img {
+  width: 100px;
+  height: 100px;
+}
+.content .row header {
+  color: black;
+  font-size: 20px;
+  font-weight: blod;
+  padding: 0px 5px;
+  text-transform: uppercase;
+}
+.row .mega-link li {
+  padding: 0 20px;
+}
+
+/*-------------------Shop by catagory---------------------------------------*/
+#jaishopByCat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.jaicat {
+  width: 18%;
+  height: 100px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  border-radius: 2%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.jaicat > h4 {
+  vertical-align: middle;
+}
+
+/*---------------------------To fix the top bars use this code and give 4th div top 120px--------------------------------------
+#vishnu_top{
+position: fixed;
+top: 0;
+bottom: 0;
+}   
+#vishnu_secondBar{
+position: fixed;
+top: 50px;
+
+}
+
+#vishnu_thirdBar{
+position: fixed;
+top: 120px;
+background-color: white;
+}
+*/
+
+/*----------------fixed extra discount and media buttons----------------------*/
+#jaigetextra2 {
+  height: 300px;
+  background-color: rebeccapurple;
+  color: blanchedalmond;
+  text-align: center;
+  width: 600px;
+  letter-spacing: 2px;
+  position: fixed;
+  right: -560px;
+  top: 250px;
+  padding-top: 0;
+  display: flex;
+}
+
+#jaigetextra2:hover {
+  right: 0px;
+}
+
+#jaiextradis {
+  background-color: black;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  width: 50px;
+}
+
+#jaibottomextraicons {
+  position: fixed;
+  right: 3px;
+  top: 80%;
+}
+
+#jaibottomextraicons > div {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  margin: 1px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+#jaitoppicdis {
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+  margin: auto;
+  width: 95%;
+}
+
+/*------------------------------Flash Sale-------------------------------- */
+
+#vishnu_flashSale {
+  height: 100px; /*<<Change this at time of merging*/
+  display: flex;
+}
+
+#vishnu_flashSale > div:nth-child(1) {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 70%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+}
+
+#vishnu_flashSale > div:nth-child(2) {
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+
+#vishnuText {
+  width: 30%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding-top: 35px;
+  padding-left: 20px;
+}
+
+#vishnuTimerBottom {
+  width: 65%;
+  height: 50%;
+  margin-top: 20px;
+  display: flex;
+}
+
+#vishnuTimerBottom > div {
+  width: 20%;
+  background-color: black;
+  border-radius: 5px;
+  margin: 2px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  padding-top: 4px;
+}
+
+#vishnuTimerBottom > div:nth-child(3),
+#vishnuTimerBottom > div:nth-child(6) {
+  width: 6%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#vishnuTimerBottom > div:nth-child(3) > div,
+#vishnuTimerBottom > div:nth-child(6) > div {
+  width: 6px;
+  height: 6px;
+  border-radius: 7px;
+  background-color: black;
+}
+#vishnuSwitch {
+  width: 5%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 35px;
+  padding-left: 4px;
+  text-decoration: none;
+}

@@ -1,0 +1,91 @@
+#main {
+    display: flex;
+    /* height: 600px; */
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+
+}
+
+#left {
+  width: 60%;
+    margin: 5px;
+}
+#right {
+    width: 40%;
+    margin: 5px;
+    
+}
+#red {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+
+#firstname , #state {
+    width: 59%;
+    height: 30px;
+}
+#lastname , #city {
+    width: 36%;
+    height: 30px;
+
+}
+#Mobile , #Address , #Address2 , #zip {
+    width: 98%;
+    height: 30px;
+}
+ #butone {
+   margin-left: 150px;
+   width: 120px;
+   height: 35px;
+   background-color: black;
+   color: white;
+   border: none;
+ }
+ #butone:hover ,#placeorder:hover {
+     background-color: rgba(0, 0, 0, 0.733);
+ }
+ #placeorder {
+     width: 98%;
+     height: 35px;
+     background-color: black;
+     color: white;
+     border: none;
+ }
+ p {
+     font-size: 13px;
+ }
+ #left > p {
+     color: rgba(0, 0, 0, 0.616);
+ }
+ #pone {
+    color: rgba(0, 0, 0, 0.616);
+ }
+strong {
+    font-size: 13px;
+}
+
+#jaitopgreen{
+    color: #83B293;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+    word-spacing: 6px;
+  
+}
+#jaitop1{
+    font-family: sans-serif;
+    margin-left: 60px;
+    color: #222222;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    line-height: 3px;
+    
+}
+
+#saveone{
+    color: red;
+}

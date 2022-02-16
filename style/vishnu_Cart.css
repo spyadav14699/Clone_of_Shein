@@ -1,0 +1,173 @@
+#C1VishnuOuterCart {
+  /* border: 1px solid red; */
+  background-color: #f7f8fa;
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 19.3% 19.3% 19.3% 19.3% 19.3%;
+  grid-template:
+    "a a a c c"
+    "b b b c c"
+    "b b b e e"
+    "d d d e e"
+    "d d d e e";
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#C1VishnuOuterCart > div {
+  background-color: white;
+  /* border: 1px solid red;    */
+  box-sizing: border-box;
+}
+#C1VishnuOuterCart > div:nth-child(1),
+#C1VishnuOuterCart > div:nth-child(2),
+#C1VishnuOuterCart > div:nth-child(3) {
+  grid-area: a;
+}
+#C1VishnuOuterCart > div:nth-child(4),
+#C1VishnuOuterCart > div:nth-child(5),
+#C1VishnuOuterCart > div:nth-child(9),
+#C1VishnuOuterCart > div:nth-child(10) {
+  grid-area: c;
+}
+#C1VishnuOuterCart > div:nth-child(6),
+#C1VishnuOuterCart > div:nth-child(7),
+#C1VishnuOuterCart > div:nth-child(8),
+#C1VishnuOuterCart > div:nth-child(11),
+#C1VishnuOuterCart > div:nth-child(12),
+#C1VishnuOuterCart > div:nth-child(13) {
+  grid-area: b;
+}
+#C1VishnuOuterCart > div:nth-child(16),
+#C1VishnuOuterCart > div:nth-child(17),
+#C1VishnuOuterCart > div:nth-child(18),
+#C1VishnuOuterCart > div:nth-child(21),
+#C1VishnuOuterCart > div:nth-child(22),
+#C1VishnuOuterCart > div:nth-child(23) {
+  grid-area: d;
+}
+#C1VishnuOuterCart > div:nth-child(14),
+#C1VishnuOuterCart > div:nth-child(15),
+#C1VishnuOuterCart > div:nth-child(19),
+#C1VishnuOuterCart > div:nth-child(20),
+#C1VishnuOuterCart > div:nth-child(24),
+#C1VishnuOuterCart > div:nth-child(25) {
+  grid-area: e;
+}
+#C1VishnuOuterCart > div:nth-child(3),
+#C1VishnuOuterCart > div:nth-child(10),
+#C1VishnuOuterCart > div:nth-child(13),
+#C1VishnuOuterCart > div:nth-child(23),
+#C1VishnuOuterCart > div:nth-child(25) {
+  box-sizing: border-box;
+  padding: 3%;
+}
+#C1VishnuOuterCart > div:nth-child(3) > div,
+#C1VishnuOuterCart > div:nth-child(10) > div,
+#C1VishnuOuterCart > div:nth-child(13) > div,
+#C1VishnuOuterCart > div:nth-child(23) > div,
+#C1VishnuOuterCart > div:nth-child(25) > div {
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
+}
+#C1vishnuGreenBox {
+  background-color: #f2faf3;
+
+  display: flex;
+}
+#C1vishnuGreenBox > div:nth-child(1) {
+  width: 10%;
+  height: 40%;
+  /* border: 1px solid red; */
+}
+#C1vishnuGreenBox > div:nth-child(2) {
+  min-width: 80%;
+  /* border: 1px solid red; */
+}
+#C1vishnuGreenBox > div:nth-child(3) {
+  width: 10%;
+  /* border: 1px solid red; */
+}
+.C1img {
+  width: 100%;
+  height: 100%;
+}
+#C1vishnuHeading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#C1vishnuSubHeading {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  /* justify-content:space-around */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+#C1vishnuAdd {
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+#C1vishnuAdd2,
+#C1vishnuCheckOutBtn {
+  width: 70px;
+  height: 30px;
+  color: white;
+  background-color: black;
+  /* margin-right:0px; */
+  /* margin-top: 10px; */
+  display: inline-block;
+  box-sizing: border-box;
+  padding-top: 6px;
+  padding-left: 15px;
+  /* border: 1px solid red; */
+}
+#C1vishnuTable {
+  width: 100%;
+  text-align: center;
+  /* border:1px solid red; */
+}
+#C1vishnuTd {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.C1vishnuH1 {
+  font-family: Arial-Black, Arial;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* #C1vishnuBottomBox{
+     border:1px solid red; 
+}  */
+#C1vishnuBottomBox {
+  overflow-y: scroll;
+}
+
+#jaitopgreen {
+  color: #83b293;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 20px;
+  word-spacing: 6px;
+}
+#jaitop1 {
+  font-family: sans-serif;
+  margin-left: 60px;
+  color: #222222;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  line-height: 3px;
+}
+a {
+  text-decoration: none;
+}
